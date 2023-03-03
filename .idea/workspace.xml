@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70483653-f111-4429-8562-da56a2e22853" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/update product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morningDjangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/morningDjangoProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/morningDjangoProject/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/morningDjangoProject/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +97,8 @@
       <workItem from="1677656231904" duration="486000" />
       <workItem from="1677668244398" duration="1190000" />
       <workItem from="1677734346825" duration="81000" />
+      <workItem from="1677819258510" duration="17000" />
+      <workItem from="1677819299113" duration="9555000" />
     </task>
     <servers />
   </component>
