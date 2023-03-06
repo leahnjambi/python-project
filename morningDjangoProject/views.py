@@ -82,3 +82,17 @@ def update_product(request, id):
         messages.success(request, 'Product updated successfully')
         return redirect('products')
     return render(request, 'update product.html', {'product': product})
+
+
+
+@login_required
+def payment(request, id):
+    # Select the product being paid
+    product = Product.objects.get(id=id)
+    # Check if the form having submitted has a post method
+    if request.method == 'POST':
+        phone_number = request.POST.get('nambari')
+        amount = request.POST.get('bei')
+        # Proceed with the payment by launching mpesa STK
+
+    return render(request, 'payment.html', {'product': product})
