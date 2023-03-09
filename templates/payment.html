@@ -13,7 +13,7 @@
                         {% csrf_token %}
                         <div class="form-group">
                             <input class="form-control" type="tel" name="nambari" placeholder="Enter Phone Number (e.g 2547...)" required>
-                            <input type="hidden" name="bei" value={{ product.prod_price}}">
+                            <input type="hidden" name="bei" value={{ product.prod_price}}>
                         </div>
                         <div class="form-group">
                             <input class="btn-info" type="submit" name="btn_pay" value="Pay">
